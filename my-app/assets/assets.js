@@ -7,9 +7,10 @@ import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
 import firebase from './firebase.png';
+import supabase from './supabase.png';
+import vercel from './vercel.png';
 import figma from './figma.png';
 import git from './git.png';
-import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
 import mail_icon from './mail_icon.png';
@@ -27,9 +28,9 @@ import menu_white from './menu-white.png';
 import close_black from './close-black.png';
 import close_white from './close-white.png';
 import web_icon from './web-icon.png';
-import mobile_icon from './mobile-icon.png';
+import da_icon from './da-icon.png';
 import ui_icon from './ui-icon.png';
-import graphics_icon from './graphics-icon.png';
+import algo_icon from './algo-icon.png';
 import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
@@ -45,9 +46,10 @@ export const assets = {
     project_icon_dark,
     vscode,
     firebase,
+    supabase,
+    vercel,
     figma,
     git,
-    mongodb,
     right_arrow_white,
     logo,
     mail_icon,
@@ -65,16 +67,16 @@ export const assets = {
     close_black,
     close_white,
     web_icon,
-    mobile_icon,
+    da_icon,
     ui_icon,
-    graphics_icon,
+    algo_icon,
     right_arrow,
     send_icon,
     right_arrow_bold,
     right_arrow_bold_dark
 };
 
-export const workData = [
+export const projectData = [
     {
         title: 'Frontend project',
         description: 'Web Design',
@@ -97,19 +99,19 @@ export const workData = [
     },
 ]
 
-export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+export const specialtyData = [
+    { icon: assets.web_icon, title: 'Web app', description: 'Developed > 5 web applications from school projects to intern tasks' },
+    { icon: assets.algo_icon, title: 'Algorithm', description: 'Had solid knowledge and practical experience with object-oriented programming, data structures and algorithms' },
+    { icon: assets.da_icon, title: 'Data analysis', description: 'Experienced cleaning and analyzing 10+ millions different-type raw data' },
+    { icon: assets.ui_icon, title: 'UI design', description: 'Designed watch, phone, and web platforms with Figma' },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'JavaScript, Python, C++, React Js, Next Js, Node Js, Flask, RESTful API, HTML, CSS, Tailwind CSS, SQL ' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: '2024 Cornell MEng in Computer Science, 2023 UMich BS in Computer Science and Data Sccience' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Including med-tracking portal, research data analysis tool, book-award ML prediction, etc.' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.firebase, assets.supabase, assets.vercel, assets.figma, assets.git
 ];
