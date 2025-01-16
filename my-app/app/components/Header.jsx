@@ -12,9 +12,9 @@ const Header = () => {
                 Hi! I'm Diana Xu <Image src={assets.hand_icon} alt='' className='w-6' />
             </h3>
             <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-                frontend web developer and software engineer.</h1 >
+                web developer & software engineer.</h1 >
             <p className='max-w-2xl mx-auto font-Ovo'>
-                I just got the Master degree in Computer Science at Cornell and developed scalable web applications in both startup and industry environments.
+                I developed scalable web applications and built data pipeline in both startup and industry environments.
             </p>
             <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
                 <a href='#contact'
