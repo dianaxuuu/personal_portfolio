@@ -85,6 +85,24 @@ const Projects = () => {
                                 </span>
                             ))}
                         </div>
+
+                        {/* Description */}
+                        {project.description && (
+                            <div className="mt-4">
+                                <p className="text-gray-700 text-sm">{project.description}</p>
+                            </div>
+                        )}
+
+                        {/* Features */}
+                        {project.features?.length > 0 && (
+                            <div className="mt-4">
+                                <ul className="list-disc list-inside text-gray-700 text-sm">
+                                    {project.features.map((feature, idx) => (
+                                        <li key={idx}>{feature}</li>
+                                    ))}
+                                </ul>
+                            </div>
+                        )}
                     </div>
                 ))}
             </div>
