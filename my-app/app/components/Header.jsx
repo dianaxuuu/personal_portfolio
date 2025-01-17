@@ -14,7 +14,7 @@ const Header = () => {
             <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
                 data analyst & software engineer</h1 >
             <p className='max-w-2xl mx-auto font-Ovo'>
-                I developed scalable web applications and built data pipeline in both startup and industry environments.
+                I developed scalable web applications and analyzed real-world big data in both startup and industry environments.
             </p>
             <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
                 <a href='#contact'
