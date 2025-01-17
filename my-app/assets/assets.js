@@ -32,7 +32,8 @@ import da_icon from './da-icon.png';
 import ui_icon from './ui-icon.png';
 import algo_icon from './algo-icon.png';
 import right_arrow from './right-arrow.png';
-import send_icon from './send-icon.png';
+import github_icon from './github-icon.png';
+import demo_icon from './demo-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 
@@ -71,7 +72,8 @@ export const assets = {
     ui_icon,
     algo_icon,
     right_arrow,
-    send_icon,
+    github_icon,
+    demo_icon,
     right_arrow_bold,
     right_arrow_bold_dark
 };
@@ -79,23 +81,63 @@ export const assets = {
 export const projectData = [
     {
         title: 'Hugmed',
-        description: 'Med-Tracking Portal',
-        bgImage: '/work-1.png',
+        subtitle: 'Med-tracking Portal',
+        bgImage: '/work-hugmed.png',
+        skills: ['React Js', 'Node Js', 'JavaScript', 'SQL', 'PostgreSQL', 'RESTful API', 'Supabase', 'Vercel', 'AWS', 'HTML', 'CSS'],
+        description: '',
+        features: ['a', 'b', 'c'],
+        github: '',
+        demo: '',
+    },
+    {
+        title: 'Portfolio',
+        subtitle: 'My Personal Portfolio Website',
+        bgImage: '/work-portfolio.png',
+        skills: ['React Js', 'Next Js', 'JavaScript', 'Vercel', 'HTML', 'Tailwind CSS'],
+        description: '',
+        features: ['a', 'b', 'c'],
+        github: 'https://github.com/dianaxuuu/personal_portfolio',
+        demo: 'https://www.dianajiayuxu.com',
+    },
+    {
+        title: 'NMA Tool - Sumitovant Biopharma',
+        subtitle: 'Automated Pipeline for Data Insights',
+        bgImage: '/work-nma.png',
+        skills: ['Python', 'Flask', 'R', 'HTML', 'CSS', 'XML'],
+        description: '',
+        features: ['a', 'b', 'c'],
+        github: '',
+        demo: '',
     },
     {
         title: 'Newsearch',
-        description: 'News Search Engine',
-        bgImage: '/work-2.png',
+        subtitle: 'News Search Engine',
+        bgImage: '/work-newsearch.png',
+        skills: ['React Js', 'Next Js', 'JavaScript', 'HTML', 'CSS', 'Firebase'],
+        description: '',
+        features: ['a', 'b', 'c'],
+        github: '',
+        demo: 'https://milestone-3-passed9-9.vercel.app',
     },
     {
         title: 'Insta485',
-        description: 'Instagram-like Web System',
-        bgImage: '/work-3.png',
+        subtitle: 'Instagram-like Web System',
+        bgImage: '/work-insta485.png',
+        skills: ['React Js', 'Flask', 'Python', 'JSON', 'SQLite', 'AWS'],
+        description: '',
+        features: ['a', 'b', 'c'],
+        github: 'https://github.com/dianaxuuu/web-system',
+        demo: '',
     },
     {
-        title: 'Umich MDP',
-        description: 'Book-award ML Prediction',
-        bgImage: '/work-4.png',
+        title: 'MDP - ProQuest',
+        subtitle: 'Book-award ML Prediction',
+        bgImage: '/work-mdp.png',
+        skills: ['Dask', 'Numpy', 'Pandas', 'Scikit-learn', 'Python', 'Jupyter Notebook'],
+        description: '',
+        features: ['a', 'b', 'c'],
+        github: '',
+        demo: '',
     },
 ]
 
@@ -107,7 +149,7 @@ export const specialtyData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'JavaScript, Python, C++, React Js, Next Js, Node Js, Flask, RESTful API, HTML, CSS, Tailwind CSS, SQL ' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'JavaScript, Python, C++, React Js, Next Js, Node Js, Flask, RESTful API, HTML, CSS, Tailwind CSS, SQL, etc. ' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: '2024 Cornell MEng in Computer Science, 2023 UMich BS in Computer Science and Data Science' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Including med-tracking portal, research data analysis tool, book-award ML prediction, etc.' }
 ];
