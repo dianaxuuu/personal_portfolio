@@ -23,11 +23,11 @@ const Projects = () => {
                 {projectData.map((project, index) => (
                     <div key={index} className="rounded-lg cursor-pointer group">
                         {/* Background Image */}
-                        <div className="rounded-lg w-full sm:h-72 md:h-80 relative overflow-hidden">
+                        <div className="aspect-w-16 aspect-h-9 w-full rounded-lg overflow-hidden">
                             <img
                                 src={project.bgImage}
                                 alt={`Background for ${project.title}`}
-                                className="w-full h-full object-cover"
+                                className="object-cover w-full h-full"
                             />
                         </div>
 
