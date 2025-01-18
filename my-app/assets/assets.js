@@ -32,6 +32,8 @@ import da_icon from './da-icon.png';
 import ui_icon from './ui-icon.png';
 import algo_icon from './algo-icon.png';
 import right_arrow from './right-arrow.png';
+import img_left_arrow from './img-left-arrow.png';
+import img_right_arrow from './img-right-arrow.png';
 import github_icon from './github-icon.png';
 import demo_icon from './demo-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
@@ -72,6 +74,8 @@ export const assets = {
     ui_icon,
     algo_icon,
     right_arrow,
+    img_left_arrow,
+    img_right_arrow,
     github_icon,
     demo_icon,
     right_arrow_bold,
@@ -82,59 +86,98 @@ export const projectData = [
     {
         title: 'Hugmed',
         subtitle: 'Med-tracking Portal | Startup Project | Jan 2024 - Present',
-        bgImage: '/work-hugmed.png',
+        bgImage: ['/work-hugmed1.png', '/work-hugmed2.png', '/work-hugmed3.png', '/work-hugmed4.png', '/work-hugmed5.png', '/work-hugmed6.png', '/work-hugmed7.png'],
         skills: ['React Js', 'Node Js', 'JavaScript', 'SQL', 'PostgreSQL', 'RESTful API', 'Supabase', 'Vercel', 'AWS', 'HTML', 'CSS'],
         description: '',
-        features: [],
+        features: ['Sign-In / Sign-up: A whole set of secure sign-in & sign-up with required HIPAA consent form',
+            'Email Verification: Identity confirmation via secure SMTP link',
+            'Medication Dashboard: Displays medications, logs, and statistics',
+            'Medication Management: Add, delete, or update medication details',
+            'Weekly Reports: Visualizes adherence with downloadable PDFs',
+            'Help Center: Searchable FAQs with instructional videos',
+            'Settings Page: Update profile and manage data-sharing preferences with caregivers'
+        ],
         github: '',
         demo: '',
     },
     {
         title: 'Portfolio',
         subtitle: 'My Personal Portfolio Website | Personal Project | Jan 2025 - Present',
-        bgImage: '/work-portfolio.png',
+        bgImage: ['/work-portfolio1.png', '/work-portfolio2.png', '/work-portfolio3.png'],
         skills: ['React Js', 'Next Js', 'JavaScript', 'Vercel', 'HTML', 'Tailwind CSS'],
         description: '',
-        features: [],
+        features: ['Responsive design ensuring seamless functionality across mobile and desktop devices',
+            'Image carousel for showcasing projects with smooth transitions',
+            'Interactive hover animations enhancing user engagement with modules',
+            'Adaptive hamburger menu and side navigation bar for compact screens',
+            'Intuitive navigation with tags directing users to specific page sections',
+        ],
         github: 'https://github.com/dianaxuuu/personal_portfolio',
         demo: 'https://www.dianajiayuxu.com',
     },
     {
         title: 'NMA Tool - Sumitovant Biopharma',
         subtitle: 'Automated Pipeline for Data Insights | Intern Project | May 2022 - Aug 2022',
-        bgImage: '/work-nma.png',
+        bgImage: ['/work-nma1.png', '/work-nma2.png', '/work-nma3.png'],
         skills: ['Python', 'Flask', 'R', 'HTML', 'CSS', 'XML'],
         description: '',
-        features: [],
+        features: ['Extract and process data from hundreds of ClinicalTrials.gov XML files',
+            'Predict and standardize treatment names to align with the Cortellis drug list',
+            'Automate the generation of comprehensive Network Meta-Analysis reports in one click'
+        ],
         github: '',
         demo: '',
     },
     {
         title: 'Newsearch',
         subtitle: 'News Search Engine | School Project | Aug 2023 - Dec 2023',
-        bgImage: '/work-newsearch.png',
+        bgImage: ['/work-newsearch1.png', '/work-newsearch2.png', '/work-newsearch3.png'],
         skills: ['React Js', 'Next Js', 'JavaScript', 'HTML', 'CSS', 'Firebase'],
         description: '',
-        features: [],
+        features: ['Search functionality to retrieve New York Times articles by keywords',
+            'Dedicated user portal for saving and managing favorite articles',
+            'Provide redirection options to access the original news source'
+        ],
         github: '',
         demo: 'https://milestone-3-passed9-9.vercel.app',
     },
     {
         title: 'Insta485',
         subtitle: 'Instagram-like Web System | School Project | Aug 2022 - Dec 2022',
-        bgImage: '/work-insta485.png',
+        bgImage: ['/work-insta485.png'],
         skills: ['React Js', 'Flask', 'Python', 'JSON', 'SQLite', 'AWS'],
-        description: '',
-        features: [],
+        description: 'This is an Instagram clone project for the EECS485 course in Umich, \
+        the first course for me to learn how to build a web application. \
+        Creating this was an amazing learning experience to develop both my front-end and back-end skills. \
+        React was used to allow for client-side dynamic pages on the home screen of Instagram and also \
+        for individual posts. Python and Flask were used to construct REST API, \
+        Flask cookies were used to store usernames \
+        and to authenticate users, and SQL was used for database access and storage. \
+        The web app was finally deployed with an AWS EC2 instance.',
+        features: ['Creating accounts, following, liking, commenting, uploading photos, and more',
+            'Double-click on an unliked image to like it',
+            'Immediately show new likes and comments',
+            'Infinite scroll by displaying the next 10 posts when scrolling to the bottom of the page',
+        ],
         github: 'https://github.com/dianaxuuu/web-system',
         demo: '',
     },
     {
         title: 'MDP - ProQuest',
         subtitle: 'Book-award ML Prediction | Research Project | Jan 2022 - Dec 2022',
-        bgImage: '/work-mdp.png',
+        bgImage: ['/work-mdp1.png', '/work-mdp2.png', '/work-mdp3.png', '/work-mdp4.png', '/work-mdp5.png', '/work-mdp6.png'],
         skills: ['Dask', 'Numpy', 'Pandas', 'Scikit-learn', 'Python', 'Jupyter Notebook'],
-        description: '',
+        description: 'As part of the UMich Multidisciplinary Design Program sponsored by ProQuest,\
+         we developed a machine learning model to predict the likelihood of books winning awards, \
+         designed for deployment on Rialto, an academic marketplace for data-driven librarian decisions. \
+         Tackling challenges like 0.03% award-winning books in a 10M+ dataset and 80% missing data for numerous fields, \
+         we invested significant effort in merging datasets, handling missing values, \
+         and transforming raw data into usable insights. \
+         We analyzed 6 data sources and there were a total of 75 features, \
+         among which we selected or used to create 6 features for our final model. \
+         Through rigorous preprocessing, time-series analysis, and Random Forest Regression, \
+         we achieved a 31% match rate between predicted and actual top 100 books, \
+         highlighting the strength of our data preparation and modeling pipeline.',
         features: [],
         github: '',
         demo: '',
